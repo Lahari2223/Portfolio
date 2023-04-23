@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0e749ea357.js" crossorigin="anonymous"></script>
+        <title>Profile</title>
+<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpeg" class="logo">
+            <ul id="sidemenu">
+                <li>
+                    <a href="#header">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div id="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm  <span>Lahari  Pamidimukkala</span> <br>from KL University</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+<img src="images/lahari.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I  am Lahari Pamidimukkala a college student looking for a chance to work in a core
+                    field experience. I am reliable and ethical. willingness to accept more duties in order to achieve team objectives.I am
+                    a cloud computing expert engineer seeking employment to
+                    start the career in the software industry and become self-sufficient.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Certificate')">Certifications</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Cloud Architect</span><br>Working with AWS,Google Cloud,Azure Platforms</li>
+                        <li><span>Web Development</span><br>HTML,CSS,Java Script,Angular,Mongo db,Postman</li>
+                        <li><span>Programming Languages</span><br>C++,Java,Python<br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>AICTE</span><br>AWS Cloud Virtual Internship</li>
+                        <li><span>MICROSOFT</span><br>Future Ready Talent Virtual Intern</li>
+                        <li><span>MEGHA CLUB</span><br>Drafting Lead</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018</span><br>SCHOOL- VISWASANTHI</li>
+                        <li><span>2018-2020</span><br>INTER- GURUS EDUCATIONAL SOCIETY</li>
+                        <li><span>2020-2024</span><br>B.TECH- KL UNIVERSITY</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certificate">
+                    <ul>
+                        <li><span>AWS Cloud Practioner</span></li>
+                        <li><span>Aws Solution Architect</span></li>
+                        <li><span>Associate Google Cloud</span></li>
+                        <li><span>RedHat Enterprise Developer Application</span></li>
+                        <li><span>Microsoft Azure -AZ(400)</span></li>
+                        <li><span>NPTEL -PARALLEL PROGRAMMING WITH OPENMP AND MPI</span></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+             <div class="layer">
+                <h3>Library Managment</h3>
+                <p>
+                    kihugytrdtfyguhjskmldermt5y6i54othenrfn4unyuntrpotbihrenkvgrbvgjhgijsbfveyigerjgjrgvier gfjbvpkv sehrfiergerike
+                </p>
+                <a href="#"><i class="fa-duotone fa-square-arrow-up-right"></i></i></a>
+             </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Real Time Analytics</h3>
+                    <p>
+                        Here in this project I have used to the aws services(AWS KINESIS ,AWS LAMBDA ,AWS S3) to analyze the how the real time data streaming happens. In this project I have a taken a text file and uploaded it in s3 bucket. When we made any changes then it will be reflected in the cloud watch logs.
+
+
+                    </p>
+                    <a href="#"><i class="fa-duotone fa-square-arrow-up-right"></i></i></a>
+                 </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>portfolio</h3>
+                    <p>
+                        In this Project,I have developed my profile using HTML,Css,Java Script.
+                    </p>
+                    <a href="#"><i class="fa-duotone fa-square-arrow-up-right"></i></i></a>
+                 </div>
+                
+            </div>
+        </div>
+        <a href="https://github.com/Lahari2223?tab=repositories" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>   pamidilahari15@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone-volume"></i>   6303120954</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pamidimukkalalahari/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/2000031711_RESUME(U).pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        copyright @lahari Pamidimukkala
+    </p>
+</div>
+
+
+
+<script>
+    
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+           
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemnu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemnu.style.right="0";
+    }
+    function closemenu(){
+        sidemnu.style.right="-200px";
+    }
+</script>
+    </body> 
+</html>
